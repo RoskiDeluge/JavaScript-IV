@@ -50,8 +50,8 @@ class GameObject {
       }
   }
   
+//   Old pseudo-classical inheritance and prototype
 //   CharacterStats.prototype = Object.create(GameObject.prototype);
-  
 //   CharacterStats.prototype.takeDamage = function() {
 //     return `${this.name} took damage.`;
 //   }
@@ -77,7 +77,8 @@ class GameObject {
         return `${this.name} offers a greeting in ${this.language}`;
       }
   }
-  
+
+//   Old pseudo-classical inheritance and prototype
 //   Humanoid.prototype = Object.create(GameObject.prototype);
 //   Humanoid.prototype = Object.create(CharacterStats.prototype);
   
